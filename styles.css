@@ -919,9 +919,19 @@ section {
         flex-wrap: wrap;
     }
 
+    .hero-logo-image {
+        width: 250px;
+        height: 250px;
+    }
+
     .about-content {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .about-logo-image {
+        width: 200px;
+        height: 200px;
     }
 
     .stats {
@@ -951,6 +961,16 @@ section {
     .resources-grid {
         grid-template-columns: 1fr;
     }
+
+    .logo-circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    .nav-logo-image {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -964,6 +984,35 @@ section {
 
     .container {
         padding: 0 15px;
+    }
+
+    .hero-logo-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-logo-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        padding: 1rem;
+    }
+
+    .member-photo {
+        width: 60px;
+        height: 60px;
     }
 }
 
